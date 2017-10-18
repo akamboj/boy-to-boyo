@@ -55,10 +55,11 @@ function handleText(textNode)
 	var oldValue = textNode.nodeValue;
 	var v = oldValue;
 
-	v = v.replace(/\bsjw(s?)\b/ig, "skeleton$1");
-	v = v.replace(/\bsocjus\b/ig, "skeletonism");
-	v = v.replace(/\b(a)n (skeletons?)\b/ig, "$1 $2");
-	v = v.replace(/\b(s)ocial justice (warriors?)/ig, "$1keleton $2");
+	v = v.replace(/\bboy(s?)\b/ig, "boyo$1");
+	// v = v.replace(/\bsjw(s?)\b/ig, "skeleton$1");
+	// v = v.replace(/\bsocjus\b/ig, "skeletonism");
+	// v = v.replace(/\b(a)n (skeletons?)\b/ig, "$1 $2");
+	// v = v.replace(/\b(s)ocial justice (warriors?)/ig, "$1keleton $2");
 	
 	if (v !== oldValue) {
 		textNode.nodeValue = v;
