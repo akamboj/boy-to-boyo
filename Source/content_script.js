@@ -55,7 +55,13 @@ function handleText(textNode)
 	var oldValue = textNode.nodeValue;
 	var v = oldValue;
 
-	v = v.replace(/\bboy(s?)\b/ig, "boyo$1");
+	//v = v.replace(/\bboy(s?)\b/g, "boyo$1");
+    v = v.replace(/\bBoy\b/g, "Boyo");
+    v = v.replace(/\bboy\b/g, "boyo");
+    v = v.replace(/\bBoys\b/g, "Boyos");
+    v = v.replace(/\bboys\b/g, "boyos");
+    
+    
 	// v = v.replace(/\bsjw(s?)\b/ig, "skeleton$1");
 	// v = v.replace(/\bsocjus\b/ig, "skeletonism");
 	// v = v.replace(/\b(a)n (skeletons?)\b/ig, "$1 $2");
