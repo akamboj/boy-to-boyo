@@ -1,7 +1,7 @@
 {
-	"manifest_version": 3,
+	"manifest_version": 1,
 	"name": "Boy to Boyo",
-	"version": "1.6",
+	"version": "1.0",
 	"description": "Replaces the text 'boy' with 'boyo'.",
 	"icons": { 
 		"16": "icons/icon16.png",
