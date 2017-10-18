@@ -1,5 +1,5 @@
 {
-	"manifest_version": 1,
+	"manifest_version": 2,
 	"name": "Boy to Boyo",
 	"version": "1.0",
 	"description": "Replaces the text 'boy' with 'boyo'.",
